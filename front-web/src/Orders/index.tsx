@@ -7,8 +7,8 @@ import OrderLocation from './OrderLocation';
 import OrderSummary from './OrderSummary';
 import ProductsList from './ProductsList';
 import StepsHeader from './StepsHeader';
-import { OrderLocationData, Product } from './types';
 import './styles.css';
+import { OrderLocationData, Product } from './types';
 
 function Orders() {
     const [products, setProducts] = useState<Product[]>([]);

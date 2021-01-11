@@ -1,8 +1,7 @@
-import { hostname } from 'os';
-import './styles.css';
-import { ReactComponent as MainImage } from './main.svg';
-import Footer from '../Footer';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer';
+import { ReactComponent as MainImage } from './main.svg';
+import './styles.css';
 
 function Home() {
     return (
